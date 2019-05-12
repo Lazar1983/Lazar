@@ -1,0 +1,84 @@
+#main-container {
+    display: block;
+    
+}
+
+
+div#main-forum {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #cacaca;
+    background: #cacaca;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#main-forum span {
+    color: white;
+}
+
+#main-headings {
+    width: 50%;
+}
+
+#topic-count {
+    width: 15%;
+}
+
+#forum {
+
+    background-color: white;
+
+}
+
+#posts-count {
+    width: 15%;
+}
+
+#lastPost {
+    width: 20%;
+}
+
+div#forum-flex {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+#forum-style {
+    display: none;
+}
+
+#forum-style h2 > img {
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+#newPost {
+    background: #cacaca;
+    width: 70%;
+    height: 100px;
+}
+
+#forum-style h2 {
+    color: white;
+    padding-left: 10px;
+
+}
+
+#forum-style p {
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.textAreaTopic, .inputTopic, #postBtn {
+    display: none;
+}
