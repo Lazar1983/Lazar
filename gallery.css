@@ -1,0 +1,34 @@
+#main-container {
+    display: block;
+}
+
+.galleryImg {
+    height: inherit;
+    position: absolute;
+    
+}
+
+img.images {
+    height: inherit;
+    object-fit: cover;
+    border: 4px solid #00ffe736;
+    border-radius:25px;
+
+}
+
+.galleryImages {
+    margin: 10px;
+}
+
+img.images:hover {
+    opacity: 0.5;
+}
+
+#popUp {
+    background-color: rgba(19, 180, 255, 0.548);
+    height: 100%;
+    width: 80%;
+    margin:0 auto;
+    position: fixed;
+    text-align: center;
+}

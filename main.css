@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-container {
+    display: none;
+    height: 160px;
+}
+
+body {
+    margin:0;
+    font-family: 'Orbitron', sans-serif;
+    background-image: url("gallery/12.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header {
+    background-color: #ffffffc2;
+}
+
+li {
+    font-family: 'Special Elite', cursive;
+    padding: 10px;
+    font-size: 25px;
+    color: #000ca5;
+
+}
+
+ul li:hover {
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+    border-radius: 20px;
+  
+}
+
+.dropdown {
+    display: none;
+    position: relative;
+    background-color: #ffffffc2;
+    padding: 10px;
+    margin-top: 9px;
+
+}
+
+.secondLi {
+    clear: both;
+    width: 100%;
+    padding: 8px;
+}
+
+.mainLi:hover > .dropdown, 
+.dropdown:hover {
+    display: block;
+    position: absolute;
+    list-style-type: none;
+}
+
+li.mainLi:active {
+    background: #0046ff;
+}
+
+a {
+    text-decoration: none;
+}
+
+div#login {
+    width: 18%;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(left, rgb(158, 158, 158) 0%, rgba(153, 246, 255, 0.84) 100%);
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Special Elite', cursive;
+    
+}
+
+form#loginForm {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: #f0f8ff7d;
+    border-radius: 10px;
+    padding:20px;
+    position: relative;
+    padding-top: 36px;
+}
+
+input#email {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: url("gallery/pass.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+input#uname {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: url("gallery/pass.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+input#pass {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: url("gallery/user.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+form p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+img#icon {
+    width: 100px;
+    margin-left: 60px;
+    border-radius: 50px;
+}
+
+form.span {
+    text-align: right;
+    font-size: small;
+    margin-right: 10px;
+}
+
+div#loginForm {
+    background: #0000f896;
+    padding-top: 13px;
+    border-radius: 10px;
+}
+
+button#logInBtn {
+    margin: 10px;
+    padding: 9px;
+    border-radius: 8px;
+    background-color: #0000f8;
+    color: white;
+    font-size: 20px;
+    margin-left: 51px;
+}
+
+div#LogInContainer {
+    margin-top: 100px;
+}
+
+#loginForm span {
+    color: white;
+    margin-left: 50px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+section {
+    width: 70%;
+
+}
+section#newsSection {
+    display: none;
+}
+
+.title {
+    color: white;
+    padding: 10px;
+}
+
+.text {
+    color:white;
+    padding: 10px;
+}
+
+
+img.imgForTittle {
+    max-width: -webkit-fill-available;
+    padding: 10px;
+}
+
+iframe {
+
+    margin-left: 100px;
+    width: 500px;
+    height: 350px;
+}
+
+#links {
+    position: absolute;
+    top: 6px;
+    left: 836px;
+}
+
+.fa {
+    padding: 11px;
+    width: 41px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    font-size: 24px;
+}
+
+ 
+.fa-facebook {
+    background: #1d00ff;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.newsSection {
+    border-radius: 10px;
+}
+
+
+

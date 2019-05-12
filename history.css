@@ -1,0 +1,21 @@
+#main-container {
+    display: block;
+}
+
+.historyText {
+    color:white;
+    font-size: 20px;
+}
+
+section#history {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #000000d9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img.historyImg {
+    width: 100%;
+    opacity: 0.8;
+}
