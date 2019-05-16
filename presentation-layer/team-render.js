@@ -218,8 +218,10 @@ export function TeamRender () {
 
 
         $("#ultrasStyle").click(function (){
+
             $("#forum-style").css("display", "block")
             $("#forum").css("display", "none")
+
         })
 
         $("#new").click(function () {
